@@ -120,6 +120,7 @@ header .page-links a {
     justify-content: center;
     align-content: space-between;
     flex-direction: column;
+    padding-bottom: 36px;
 }
 
 .section-two h1 {
@@ -145,6 +146,7 @@ header .page-links a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #1F2937;
 }
 
 .section-two .box-one,
@@ -153,8 +155,8 @@ header .page-links a {
 .section-two .box-four {
     width: 160px;
     height: 160px;
-    border: 4px solid #1F2937;
-    border-radius: 2px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,3 +168,40 @@ header .page-links a {
 }
 
 /* section three */
+
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding:64px 48px;  
+
+}
+
+.section-three .quote {
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    display: block;
+    
+    text-align: left;
+    font-style: italic;
+}
+
+.section-three .attribute {
+    display: block;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    justify-content: end;
+    margin-top: 12px;
+}
+
+.section-three .quote,
+.section-three .attribute {
+  width: min(90%, 720px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
