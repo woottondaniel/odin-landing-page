@@ -47,5 +47,65 @@ header .page-links a {
     text-decoration: none;
 }
 
-
 /* section one begins now */
+
+.section-one {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center stretch;
+    align-content: space-around;
+    justify-content: center;
+    gap: 48px;
+    padding:64px 48px;
+    flex-wrap: wrap;
+}
+
+.section-one h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.s-one-content {
+    flex-direction: column;
+}
+
+.graphic {
+    flex: 1;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid white;
+    max-width: 360px;
+}
+
+.graphic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+
+.section-one .button {
+    padding-top: 16px;
+    margin-top: 24px;
+}
+
+
+
+.section-one .button a {
+    display: inline-block;
+    border: 1 px #3882F6;
+    background-color: #3882F6;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+}
+
+.section-one .button a:hover {
+  background-color: #6e8ab0; 
+  color: white;
+  border-color: #1F2937;
+}
