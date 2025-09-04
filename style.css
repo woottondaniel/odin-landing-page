@@ -1,0 +1,51 @@
+/* general formatting */
+
+* {
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    border: 0;
+    padding: 24px 42px 16px;    
+    box-sizing: border-box;
+    align-items: center;
+    line-height: 1;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .site-name {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    line-height: 1;
+}
+
+header .page-links {
+    display: flex;
+    margin-left: auto;
+    gap: 12px;
+    align-items: center;
+    gap: 12px;
+}
+
+header .page-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: inherit;
+    line-height: 1;
+    text-decoration: none;
+}
+
+
+/* section one begins now */
